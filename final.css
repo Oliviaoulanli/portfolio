@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.navbar {
+    background-color: #ffffff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500; 
+    margin-right: 20px; /
+}
+
+
+body {
+    background: linear-gradient(to right, #739de1 0%, #b0cbd8 75%);
+    color: #333;
+    font-size: 16px; 
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1, h2, h4, h5, h6 {
+    font-weight: 700; 
+    color: #1a1a1a; 
+}
+
+h3{
+    color:#4b6784; 
+}
+p {
+    font-weight: 400;
+}
+  
+
+section {
+    background-color: #f8f9fa; 
+    border-radius: 8px; 
+    padding: 40px; 
+    margin-bottom: 40px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+
+    width: 100%; 
+    max-width: none; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow: none; 
+    background-image: linear-gradient(to right, #ffffff, #f7f7f7);
+    transition: background-image 0.3s ease-in-out; 
+}
+
+section:hover {
+    background-image: linear-gradient(to right, #f7f7f7, #ffffff);
+}
+  
+
+
+
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem; 
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+.hashtag {
+    background-color: #e9ecef;
+    color: #007bff; 
+    border-radius: 20px; 
+    padding: 5px 10px; 
+    font-size: 0.85rem; 
+    margin: 0 5px 5px 0; 
+    display: inline-block; 
+    transition: background-color 0.3s ease; 
+}
+
+.hashtag:hover {
+    background-color: #d0d7de;
+}
+
+.button, .show-more-btn {
+    background-color: #51708e;
+    color: #ffffff; 
+    padding: 10px 25px; 
+    font-size: 1rem; 
+    border: none; 
+    border-radius: 50px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+    cursor: pointer; 
+    text-align: center; 
+    display: inline-block; 
+    text-decoration: none; 
+    outline: none;
+}
+
+.button:hover, .show-more-btn:hover {
+    background-color: #92b3d6;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+}
+
+.button:active, .show-more-btn:active {
+    background-color: #51708e; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+  
+  .date {
+    margin-bottom: 10px; 
+  }
+  
+  .btn:hover, .nav-link:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease-in-out;
+}
+
+a, .nav-link {
+    color: #007bff;
+}
+
+
+.hashtag {
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    
+}
+
+
+.button, .btn {
+    padding: 12px 25px; 
+}
+
+
+p, .work-experience-title {
+    line-height: 1.6; 
+}
+
+
+.work-experience-section {
+    margin-bottom: 30px;
+}
